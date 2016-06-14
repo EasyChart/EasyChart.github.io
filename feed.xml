@@ -37,7 +37,17 @@
       
       <guid>http://EasyChart.github.io/post/S-Bcharts/</guid>
 	  
-      <description><h1>E什么是专业图表与商业图表？</h1> <p>介绍专业图表与商业图表及其制作原则。 </description>
+      <description><h1>什么是专业图表与商业图表？</h1> <p>介绍专业图表与商业图表及其制作原则。 </description>
+	</item>
+	
+		<item>
+      <title>为何选择Excel绘制图表？</title>
+      <link>http://EasyChart.github.io/post/Whyexcel/</link>
+      <pubDate>Wed, 14 Jun 2016 10:26:18 +0800</pubDate>
+      
+      <guid>http://EasyChart.github.io/post/Whyexcel/</guid>
+	  
+      <description><h1>为何选择Excel绘制图表？</h1> <p>介绍使用Excel绘制图表有哪些优点。。 </description>
 	</item>
 	  
   </channel>
