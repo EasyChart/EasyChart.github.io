@@ -54,11 +54,11 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 @media only screen and (min-width: 1024px){body >header >div{width:93%}
 }body >header a{display:block;color:#fff}
 #imglogo{float:left;width:4em;height:4em;}
-@media only screen and (min-width: 768px){#imglogo{width:6em}
-}@media only screen and (min-width: 1024px){#imglogo{width:6.5em}
+@media only screen and (min-width: 768px){#imglogo{width:5em}
+}@media only screen and (min-width: 1024px){#imglogo{width:5.5em}
 }#imglogo img{width:4em;}
-@media only screen and (min-width: 768px){#imglogo img{width:7em}
-}@media only screen and (min-width: 1024px){#imglogo img{width:7.5em}
+@media only screen and (min-width: 768px){#imglogo img{width:6em}
+}@media only screen and (min-width: 1024px){#imglogo img{width:6.5em}
 }#textlogo{float:left;width:75%;margin-left:.5em;}
 #textlogo h1.site-name{width:86%;font-size:200%;line-height:1.5;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
 @media only screen and (min-width: 768px){#textlogo h1.site-name{font-size:240%}
