@@ -311,7 +311,7 @@ footer{margin-top:1em;background:#1f1f1f;padding:0 2% .5em}
 }.author{width:6.875em;height:6.875em;margin:0 auto;-webkit-border-radius:3.4375em;border-radius:3.4375em;-webkit-transition:-webkit-transform 2s ease-out;-moz-transition:-moz-transform 2s ease-out;-o-transition:-o-transform 2s ease-out;-ms-transition:-ms-transform 2s ease-out;transition:transform 2s ease-out;}
 .author:hover{-webkit-transform:rotateZ(360deg);-moz-transform:rotateZ(360deg);-o-transform:rotateZ(360deg);-ms-transform:rotateZ(360deg);transform:rotateZ(360deg)}
 @media only screen and (min-width: 768px){.author{position:absolute;top:6em;margin:0 0 1.5em}
-}.info{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:150%;line-height:1.3em;width:90%;margin:0 auto;color:#fff;}
+}.info{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:190%;line-height:1.3em;width:90%;margin:0 auto;color:#149FF3;}
 @media only screen and (min-width: 768px){.info{margin:4.5em 0 2em 0;float:left;width:75%}
 }.social-font{width:100%;margin:0 auto;float:left;padding-left:3%;}
 @media only screen and (min-width: 568px){.social-font{padding-left:20%}
