@@ -187,14 +187,14 @@ footer.article-footer{background:#fafafa;padding:0 4%;margin:0;border-top:1px so
 .article-share-facebook:before{content:"\f09a"}
 .article-share-facebook:hover{background:#3b5998;text-shadow:0 1px #2f477a}
 .article-share-qzone:before{content:"\f005"}
-.article-share-qzone:hover{background:#ccff00;text-shadow:0 1px #2f477a}
+.article-share-qzone:hover{background:#1E90FF;text-shadow:0 1px #2f477a}
 .article-share-weibo:before{content:"\f18a"}
 .article-share-weibo:hover{background:#eb182c;text-shadow:0 1px #bf1121}
 .article-share-qrcode:before{content:"\f029"}
 .article-share-qrcode:hover{background:#49ae0f;text-shadow:0 1px #3a8b0c}
 .article-back-to-top:before{content:"\f062"}
 .article-back-to-top:hover{background:#762c54;text-shadow:0 1px #5e2343}
-.qrcode{width:15em;height:15em;position:absolute;top:50%;left:50%;margin-top:-7.5em;margin-left:-7.5em;background:#fff;border:2px solid #ccc;-webkit-border-radius:3px;border-radius:3px;display:inline-block;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);position:fixed;text-align:center;visibility:hidden;z-index:10;-webkit-transition:opacity 0.5s;-moz-transition:opacity 0.5s;-o-transition:opacity 0.5s;-ms-transition:opacity 0.5s;transition:opacity 0.5s;}
+.qrcode{width:10em;height:10em;position:absolute;top:50%;left:50%;margin-top:-7.5em;margin-left:-7.5em;background:#fff;border:2px solid #ccc;-webkit-border-radius:3px;border-radius:3px;display:inline-block;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);position:fixed;text-align:center;visibility:hidden;z-index:10;-webkit-transition:opacity 0.5s;-moz-transition:opacity 0.5s;-o-transition:opacity 0.5s;-ms-transition:opacity 0.5s;transition:opacity 0.5s;}
 @media only screen and (min-width: 1024px){.qrcode{width:20em;height:20em;position:absolute;top:50%;left:50%;margin-top:-10em;margin-left:-10em;position:fixed}
 }.qrcode span{display:block;width:80%;height:1.5em;font-size:80%;float:left;}
 .qrcode span:before{content:none}
