@@ -1,4 +1,4 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;font-size:100%;vertical-align:baseline}
+﻿html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;font-size:100%;vertical-align:baseline}
 body{line-height:1;color:#000;background:#fff}
 ol,ul{list-style:none}
 table{border-collapse:separate;border-spacing:0;vertical-align:middle}
@@ -187,7 +187,7 @@ footer.article-footer{background:#fafafa;padding:0 4%;margin:0;border-top:1px so
 .article-share-facebook:before{content:"\f09a"}
 .article-share-facebook:hover{background:#3b5998;text-shadow:0 1px #2f477a}
 .article-share-qzone:before{content:"\f005"}
-.article-share-qzone:hover{background:gold;text-shadow:0 1px #2f477a}
+.article-share-qzone:hover{background:#ffd700;text-shadow:0 1px #2f477a}
 .article-share-weibo:before{content:"\f18a"}
 .article-share-weibo:hover{background:#eb182c;text-shadow:0 1px #bf1121}
 .article-share-qrcode:before{content:"\f029"}
