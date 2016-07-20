@@ -287,9 +287,10 @@ $(document).ready(function(){
   '<a href="#" class="overlay" id="qrcode"></a>',
   '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
   '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
   '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
   '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
-  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+   '<a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+ encodedUrl +'&title='+title+'&pics=http://EasyChart.github.io/post/Easycharts/ecpic/1.png&summary=EasyCharts是一款简单易用的Excel插件，主要有一键生成Excel未提供的图表、图表美化、配色参考等功能，轻轻松松就能搞定需要通过编程或者复杂操作才能实现的图表啦！ 以下展示插件中的部分图表类型。" class="article-share-qzone" target="_blank" title="Qzone"></a>',
   '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
   '<span title="Share to"></span>'
   ].join('');
