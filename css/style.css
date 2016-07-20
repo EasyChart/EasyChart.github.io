@@ -187,7 +187,7 @@ footer.article-footer{background:#fafafa;padding:0 4%;margin:0;border-top:1px so
 .article-share-facebook:before{content:"\f09a"}
 .article-share-facebook:hover{background:#3b5998;text-shadow:0 1px #2f477a}
 .article-share-qzone:before{content:"\f005"}
-.article-share-qzone:hover{background:#cccc00;text-shadow:0 1px #2f477a}
+.article-share-qzone:hover{background:gold;text-shadow:0 1px #2f477a}
 .article-share-weibo:before{content:"\f18a"}
 .article-share-weibo:hover{background:#eb182c;text-shadow:0 1px #bf1121}
 .article-share-qrcode:before{content:"\f029"}
