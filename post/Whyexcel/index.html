@@ -117,22 +117,27 @@
 </p>
 </div>
 
+
+
+
   <footer class="article-footer clearfix">
   <div class="article-share" id="share">
-    <div data-url="http://EasyChart.github.io/post/Whyexcel/" data-title="为何选择Excel绘制图表？" data-tsina="" class="share clearfix">
+    <div data-url="http://EasyChart.github.io/post/Whyexcel/" data-title="为何选择Excel绘制图表？" data-tsina="介绍使用Excel绘制图表有哪些优点。" data-pics="http://EasyChart.github.io/post/Whyexcel/wepic/1.png" class="share clearfix" >
     </div>
   </div>
 </footer>
 
 </article>
   
+ 
+
+ 
+  
 
 <section class="comment">
 <div id="disqus_thread"></div>
 </section>
 <script>
-
-
 var disqus_config = function () {
 this.page.url = "http://EasyChart.github.io/post/Whyexcel/";
 this.page.identifier = "http://EasyChart.github.io/post/Whyexcel/";
@@ -297,6 +302,7 @@ $(document).ready(function(){
       encodedUrl = encodeURIComponent(url),
       title = $this.attr('data-title'),
       tsina = $this.attr('data-tsina');
+	  pics = $this.attr('data-pics');
   var html = [
   '<a href="#" class="overlay" id="qrcode"></a>',
   '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
@@ -304,7 +310,9 @@ $(document).ready(function(){
   '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
   '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
   '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
-   '<a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+ encodedUrl +'&title='+title+'&pics=http://EasyChart.github.io/post/Whyexcel/wepic/1.png&summary=介绍使用Excel绘制图表的优点。" class="article-share-qzone" target="_blank" title="Qzone"></a>',
+  
+   '<a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+ encodedUrl +'&title='+title+'&pics='+pics+'&summary='+ tsina+'" class="article-share-qzone" target="_blank" title="Qzone"></a>',
+   
   '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
   '<span title="Share to"></span>'
   ].join('');
