@@ -70,38 +70,37 @@
 
 <div class="article-content" style="color:black">	
 
-		<p style="text-align:justify">&emsp;&emsp;对于搞科研要发文章的同学，本文可能会有所帮助。<br/>
-		&emsp;&emsp;不少同学使用Excel绘制图表后，以截图的方式生成图片粘贴到文章中，这种图片往往都不怎么清晰，那么，如何导出高清的图表图片呢？以下提供一些思路和方法。
+		<p style="text-align:justify">&emsp;&emsp;不少同学使用Excel绘制图表后，以截图的方式生成图片粘贴到文章中，这种图片往往都不怎么清晰，那么，如何导出高清的图表图片呢？以下提供一些思路和方法。
 		</p>
 		
 		
-		<span class="tittle1">一、先导出矢量图，后用AI (Adobe illustrator )修图和导图</span><br/>
+		<span class="tittle1">一、先导出矢量图，后用AI导出位图</span><br/>
+				<p style="font-size:15px;list-style-type:none;color:rgb(192,0,0);padding-left:4%;text-align:justify"><b>Tips：</b>矢量图和位图的最大区别：矢量图可以缩放到任意大小和以任意分辨率在输出设备上打印出来，都不会影响清晰度；而位图是由一个一个像素点产生，当放大图像时，像素点也放大了，但每个像素点表示的颜色是单一的，所以在位图放大后就会出现马赛克状。位图的文件类型很多，如*.bmp、*.pcx、*.gif、*.jpg、*.tif、photoshop的*.psd等；矢量图形格式也很多，如Adobe illustrator的*.ai、*.eps和svg、Auto CAD的*.dwg和dxf、Corel DRAW的*.cdr等。</p>
 		<span class="tittle1">（1）导出矢量图</span><br/>
-		<div style="font-size:15px;list-style-type:none;color:rgb(192,0,0);padding-left:4%;text-align:justify"><b>Tips：</b>矢量图和位图的最大区别：矢量图可以缩放到任意大小和以任意分辨率在输出设备上打印出来，都不会影响清晰度；而位图是由一个一个像素点产生，当放大图像时，像素点也放大了，但每个像素点表示的颜色是单一的，所以在位图放大后就会出现马赛克状。位图的文件类型很多，如*.bmp、*.pcx、*.gif、*.jpg、*.tif、photoshop的*.psd等；矢量图形格式也很多，如Adobe illustrator的*.ai、*.eps和svg、Auto CAD的*.dwg和dxf、Corel DRAW的*.cdr等。</div>
-		<p>&emsp;这里是两个Excel图表导出矢量图的方法：<br/></p>
+		&emsp;两种Excel图表导出矢量图的方法：<br/>
 		<ul>
 		<li>将图表复制到一个空工作表中，文件→另存为→PDF(*.pdf)。</li>
 		<li>复制Excel图表→打开一个空PPT→开始→粘贴→选择性粘贴—图片（增强型图元文件）或者windows图元文件→选中粘贴好的图片→右击另存为图片→选择保存类型为emf或wmf。</li>
 		</ul>
 		
 
-		<span class="tittle1">（2）AI修图和导图</span>
+		<span class="tittle1">（2）AI(Adobe illustrator )导出位图</span>
 		<ul style="text-align:justify">
-		<li>修图</li>&emsp;&emsp;用AI打开矢量图，一般使用直接选择工具（A）选中图表元素即可修改，但有时需要先取消编组（Ctrl+Shift+G）或者释放剪切蒙版(Ctrl+AIt+7)再使用直接选择工具或者选择工具。其他AI使用技巧，请自行搜索相关教程。
-		<li>导出图片</li>&emsp;&emsp;对于无需调整或者调整完毕的图表，文件→导出→选择“保存类型”后点击“导出”→在弹出的对话框中设置分辨率（默认有72ppi、150ppi和300ppi，可自定义）等参数，一般选300ppi。
+		<li>将之前导出的矢量图用AI软件打开，按以下顺序操作导出位图：文件→导出→选择“保存类型”（本文最后提供的范例为PNG格式）后点击“导出”→在弹出的对话框中设置分辨率（默认有72ppi、150ppi和300ppi，自定义）等参数，一般选300ppi，可根据个人需要自定义分辨率。</li>
+		<li>如果需要对矢量图进行修改，一般使用直接选择工具（A）选中图表元素即可进行修改，但有时需要先取消编组（Ctrl+Shift+G）或者释放剪切蒙版(Ctrl+AIt+7)再使用直接选择工具或者选择工具。若需要其他AI使用技巧，请自行搜索相关教程。</li>
 		</ul>
 		<p><b>&emsp;PS：</b>PDF文件还可以使用Adobe Acrobat对图表元素进行调整和导出图片，但个人觉得不太方便。</p>
 		</p>
 		
 		<span class="tittle1">二、Excel插件--XL Toolbox</span>
-		<p>&emsp;&emsp;访问官网:https://www.xltoolbox.net/下载插件，不定期更新，这里不提供安装包。<br/>
+		<p>&emsp;&emsp;访问官网:<a href="https://www.xltoolbox.net/">https://www.xltoolbox.net/</a>下载插件，不定期更新，这里不提供安装包。<br/>
 		&emsp;&emsp;XL Toolbox有一些不错的功能，在这里只介绍导图功能。<p>
 		<img src="http://EasyChart.github.io/post/E2P/E2Ppic/1.png" >
 		<li style="text-align:center;list-style-type:none">图1</li>
 		<p style="text-align:justify">&emsp;&emsp;图1为该插件的导入导出功能区，其中Export selection和Batch Export均有导出图片的功能，这里以Export selection进行说明。</p>
 		<ul style="text-align:justify">
-		<li>点击“Export selection”右侧的倒三角→点击“Export with settings”</li>
-		<li>弹出“Single graphic export”对话框，可以看到默认参数（图2）； </li>
+		<li>点击“Export selection”右侧的倒三角后，点击“Export with settings”</li>
+		<li>弹出“Single graphic export”对话框，可以看到默认参数（图2） </li>
 		<img src="http://EasyChart.github.io/post/E2P/E2Ppic/2.png" >
 		<li style="text-align:center;list-style-type:none">图2</li>
 		<li>根据需要可以对“Preset”和“Output”进行参数修改：</li>
@@ -113,7 +112,9 @@
 		<span class="tittle1">&emsp;&emsp;注意：</span>XL Toolbox插件在Excel非正常关闭情况下可能发生异常，有时需要重新加载！
 		<p class="tittle1" style="text-align:center">PS：以上所有Excel导图操作均基于Excel 2016，Excel 2007-2013版本大同小异，请自行测试。</p>
 
-	<p style="text-align:justify">	&emsp;&emsp;你可能会说：看完这篇文章我都没看到标题中提到的“高清”两字，标题党吧？其实就是“分辨率”的控制啦~分辨率设置高点就高清啦！当然，分别率也不是越高越好，还得考虑图片大小等问题。<br/>&emsp;&emsp;你可能会问：方法二这么简单，能控制分辨率等参数，还能导出矢量图，这么牛逼，还写方法一干嘛？因为方法一是在还没发现方法二的时候自己琢磨出来的，希望能分享这个思路给大家，其他软件导出图片也可以参考这个方法，而且方法一中提到的AI软件也是非常有用的！<br/>&emsp;&emsp;无论是用Excel还是其他软件绘制图表，都建议大家保存一份图表的矢量图，这样可以随时根据需要在矢量图上修改图表元素和导出不同分辨率的图片。<br/></p>
+	<p style="text-align:justify">	&emsp;&emsp;你可能会说：看完这篇文章我都没看到标题中提到的“高清”两字，不会是标题党吧？其实就是“分辨率”的控制啦~分辨率设置高点就高清啦！当然，分别率也不是越高越好，还得考虑图片大小等问题。</p>
+	<p style="text-align:justify">&emsp;&emsp;你可能会问：方法二这么简单，能控制分辨率等参数，还能导出矢量图，这么牛逼，还写方法一干嘛？方法二有时会出现插件加载问题，甚至可能出现导出图片功能无法使用的情况；方法一是在还没发现方法二的时候自己琢磨出来的，希望能分享思路给大家，其他软件导出图片也可以参考这个思路。</p>
+	<p style="text-align:justify">&emsp;&emsp;最后，无论是用Excel还是其他软件绘制图表，都建议大家保存一份图表的矢量图，这样可以随时根据需要在矢量图上修改图表元素和导出不同分辨率的图片。</p>
 
 		
 		<p style="text-align:center;">使用本文方法获得的矢量图和高清图片下载：<a href="http://EasyChart.github.io/post/E2P/E2Ppic/Execl图表导出高清图片的方法.zip" ><span style="color:blue;font-weight:bold;">点击下载</span></a><br/>	
