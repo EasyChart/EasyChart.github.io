@@ -7,17 +7,28 @@
 <link rel="shortcut icon" href="./images/eclogo.ico"/>
 <link rel="stylesheet" type="text/css" href="jquery.fullPage.css">
 <title>欢迎使用Easycharts插件</title>
+<style>
+.donate{
+  width: 1006px;
+  height: 900px;
+  background: url('./images/donate.png') center 136px no-repeat;		
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -503px;
+}
+</style>
 </head>
 <body>
 
 <!-- 悬浮菜单栏 -->
 <div id="float_banner">
   <div class="content">
-		<a class="top_link_left active" hidefocus="true" href="#" onclick="return false;">首页</a>
-		<a class="top_link_left" hidefocus="true" href="blog.html" target="_blank">博客</a>	
+		<a class="top_link_left" hidefocus="true" href="index.html" >首页</a>
+		<a class="top_link_left" hidefocus="true" href="http://easychart.github.io" target="_blank">博客</a>	
 		<a class="top_link_left" hidefocus="true" href="https://zhuanlan.zhihu.com/EasyCharts" target="_blank">专栏</a>			
 		<a class="top_link_left" hidefocus="true" href="http://shang.qq.com/wpa/qunwpa?idkey=71e75e1bb2e9dc31bde5acc4d8d985047a6a6c4b28e3a5ca6dc3347aed857169" target="_blank">QQ群</a>			
-		<a class="top_link_left" hidefocus="true" href="donate.html" >捐助</a>	
+		<a class="top_link_left active" hidefocus="true" href="donate.html" onclick="return false;">捐助</a>	
 		<a class="top_link_left" hidefocus="true" href="http://pan.baidu.com/s/1eREl5yM" target="_blank">下载</a>
 		<!-- <a class="top_link_right" hidefocus="true" href="http://easychart.github.io" target="_blank">帮助</a>       后期加入帮助文件-->		
   </div>
@@ -51,38 +62,12 @@ function scroll_ad(){
 <div id="pagescroll">
 
 	<!-- 第一页 -->	
-	<div class="section  fp-section fp-table active" style="background-color: #fcfcfc;">
-			<div class="fp-tableCell">
-			<div class="arrow"></div>
-		<div id="bg1">
-		  <div class="logo_out">
-			<!-- <img src="./images/eclogo.svg" alt="Easycharts插件"/>	 -->		<!-- 插件LOGO -->
-		  </div>
-		  <p>
-			<a class="download" href="http://pan.baidu.com/s/1eREl5yM" target="_blank" title="立即下载"></a><br/><br/>	<!--直接下载链接-->
-		</p>  
-		 </div>	 
-	</div>
-	</div>
-
-	<!-- 第二页 -->	
-	<div class="section fp-section fp-table" style="background-color: #fff;">
+	<div class="section  fp-section fp-table active" style="background-color: #fcfcfc;">	
 		<div class="fp-tableCell">
-		<div class="arrow"></div>
-		<div id="bg2">
-		
-		 </div> 
+			<div class="donate">
+			 </div>	 
 		</div>
-	</div>	
-	
-		<!-- 第三页 -->	
-	<div class="section fp-section fp-table" style="background-color: #fcfcfc;">
-		<div class="fp-tableCell">
-		<div id="bg3">
-		
-		 </div> 
-		</div>
-	</div>	
+	</div>
 
 </div>
 
@@ -104,7 +89,7 @@ var jiathis_config={
 	sm:"tsina,qzone,weixin,cqq,googleplus,tieba,fav",
 	summary:"",
 	boldNum:0,
-	marginTop:200,
+	marginTop:220,
 	showClose:true,
 	shortUrl:false,
 	hideMore:true
@@ -112,6 +97,7 @@ var jiathis_config={
 </script>
 <script type="text/javascript" src="http://v3.jiathis.com/code_mini/jiathis_r.js?btn=r4.gif&move=1" charset="utf-8"></script>
 <!-- JiaThis Button END -->
+
 
 
 </body>
