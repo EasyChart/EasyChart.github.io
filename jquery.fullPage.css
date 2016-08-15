@@ -257,21 +257,18 @@ text-align: center;
 #bg1 {
   width: 1006px;
   height: 900px;
-  /* background: url('./images/page1.png') center 136px no-repeat; */		/* 第一页主图 */
+  background: url('./images/page1.png') center 136px no-repeat;		/* 第一页主图 */
   position: absolute;
-  top: 0px;
+  top: 100px;
   left: 50%;
   margin-left: -503px;
-  text-align:center;
 }
 #bg1 .logo_out{
   height: 130px;
   width: 115px;
   margin: 0 auto;
-  margin-top:130px;
   background: url('./images/eclogo.svg') no-repeat;
 }
-
 
 
 
@@ -298,7 +295,7 @@ text-align: center;
 
 a.download {
   position: absolute;
-  top: 380px;
+  top: 230px;
   left: 50%;
   margin-left: -90px;
   border: none;
