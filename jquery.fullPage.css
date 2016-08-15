@@ -262,6 +262,8 @@ text-align: center;
   top: 100px;
   left: 50%;
   margin-left: -503px;
+  display: block;
+	max-width: 100%;
 }
 #bg1 .logo_out{
   height: 130px;
