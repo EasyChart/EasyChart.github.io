@@ -257,7 +257,7 @@ text-align: center;
 #bg1 {
   width: 1006px;
   height: 900px;
-/*   background: url('./images/page1.png') center 136px no-repeat;	 */	/* 第一页主图 */
+  background: url('./images/page1.png') center 136px no-repeat;		/* 第一页主图 */
   position: absolute;
   top: 100px;
   left: 50%;
