@@ -260,9 +260,10 @@ text-align: center;
   height: 100%;
   background: url('./images/page1.png') center 37% no-repeat;		/* 第一页主图 */
   position: absolute;
-  top: 100px;
+  top: 30px;
   left: 50%;
   margin-left: -50%;
+  max-width: 100%;
 }
 #bg1 .logo_out{
   height: 130px;
@@ -296,7 +297,7 @@ text-align: center;
 
 a.download {
   position: absolute;
-  top: 230px;
+  top: 310px;
   left: 50%;
   margin-left: -90px;
   border: none;
