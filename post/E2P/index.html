@@ -1,51 +1,62 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Execl图表导出高清图片的方法 - EasyChart&#39;s Blog</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
-  <meta name="keywords" content="EasyCharts,Excel,数据可视化,图表">
-  <meta name="description" content="EasyChart&#39;s Blog">
-  <meta name="author" content="EasyCharts">
-  <meta itemprop="name" content="Execl图表导出高清图片的方法 ">
-  <meta itemprop="description" content="介绍在Excel图表导出矢量图和用AI对矢量图修图导图的思路，以及使用XL Toolbox插件导图的方法。">
-  <meta itemprop="image" content="http://EasyChart.github.io/img/author.png">
-  <meta name="twitter:description" content="EasyChart&#39;s Blog">
-  <link rel="shortcut icon" href="http://EasyChart.github.io/img/favicon.ico"/>
-  <link rel="apple-touch-icon" href="http://EasyChart.github.io/apple-touch-icon.png" />
-  <link rel="apple-touch-icon-precomposed" href="http://EasyChart.github.io/apple-touch-icon.png" />
-  <link rel="stylesheet" href="http://EasyChart.github.io/highlight/styles/github.css">
-  <script src="http://EasyChart.github.io/highlight/highlight.pack.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <link rel="stylesheet" href="http://EasyChart.github.io/font/hack/css/hack.min.css">
-  <link rel="stylesheet" href="http://EasyChart.github.io/css/style.css">   
-  <style>
-		.tittle1{
-		color:rgb(192,0,0);
-		font-weight:bold;
-		}
-  </style>
-</head>
 
-<body>
-<header>
-<div>
-<!-- logo & blog title -->
-  <div id="imglogo">
-    <a href="http://easychart.github.io/index.html"><img src="http://EasyChart.github.io/img/logo.png" alt="EasyChart&#39;s Blog" title="EasyChart&#39;s Blog"/></a>
-  </div>
-    <div id="textlogo">
-    <h1 class="site-name"><a href="http://easychart.github.io/index.html" title="EasyChart&#39;s Blog">EasyChart&#39;s Blog</a></h1>
-	<h2 class="blog-motto"> 交流群：454614789 </h2>
-  </div>
-  
-  <div class="navbar"><a class="navbutton navmobile" href="#" title="menu"></a></div>
-  <nav class="animated">
-    <ul>     
-      <li><a href="http://easychart.github.io/index.html">主页</a></li>     
-		<li><a href="http://easychart.github.io/post/book/">书籍</a></li>	  
-      <li><a href="http://easychart.github.io/post/Easycharts/">EasyCharts 插件</a></li>	  
-	<!--google搜索引擎
+	<head>
+		<meta charset="UTF-8">
+		<title>Execl图表导出高清图片的方法 - EasyChart&#39;s Blog</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+		<meta name="keywords" content="EasyCharts,Excel,数据可视化,图表">
+		<meta name="description" content="EasyChart&#39;s Blog">
+		<meta name="author" content="EasyCharts">
+		<meta itemprop="name" content="Execl图表导出高清图片的方法 ">
+		<meta itemprop="description" content="介绍在Excel图表导出矢量图和用AI对矢量图修图导图的思路，以及使用XL Toolbox插件导图的方法。">
+		<meta itemprop="image" content="http://EasyChart.github.io/img/author.png">
+		<meta name="twitter:description" content="EasyChart&#39;s Blog">
+		<link rel="shortcut icon" href="http://EasyChart.github.io/img/favicon.ico" />
+		<link rel="apple-touch-icon" href="http://EasyChart.github.io/apple-touch-icon.png" />
+		<link rel="apple-touch-icon-precomposed" href="http://EasyChart.github.io/apple-touch-icon.png" />
+		<link rel="stylesheet" href="http://EasyChart.github.io/highlight/styles/github.css">
+		<script src="http://EasyChart.github.io/highlight/highlight.pack.js"></script>
+		<script>
+			hljs.initHighlightingOnLoad();
+		</script>
+		<link rel="stylesheet" href="http://EasyChart.github.io/font/hack/css/hack.min.css">
+		<link rel="stylesheet" href="http://EasyChart.github.io/css/style.css">
+		<style>
+			.tittle1 {
+				color: rgb(192, 0, 0);
+				font-weight: bold;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<div>
+				<!-- logo & blog title -->
+				<div id="imglogo">
+					<a href="http://easychart.github.io/index.html"><img src="http://EasyChart.github.io/img/logo.png" alt="EasyChart&#39;s Blog" title="EasyChart&#39;s Blog" /></a>
+				</div>
+				<div id="textlogo">
+					<h1 class="site-name"><a href="http://easychart.github.io/index.html" title="EasyChart&#39;s Blog">EasyChart&#39;s Blog</a></h1>
+					<h2 class="blog-motto"> 交流群：454614789 </h2>
+				</div>
+
+				<div class="navbar">
+					<a class="navbutton navmobile" href="#" title="menu"></a>
+				</div>
+				<nav class="animated">
+					<ul>
+						<li>
+							<a href="http://easychart.github.io/index.html">主页</a>
+						</li>
+						<li>
+							<a href="http://easychart.github.io/post/book/">书籍</a>
+						</li>
+						<li>
+							<a href="http://easychart.github.io/post/Easycharts/">EasyCharts 插件</a>
+						</li>
+						<!--google搜索引擎
        <li>
         <form class="search" method="get" action="https://www.google.com/search">
           <div>
@@ -53,93 +64,90 @@
           </div>
         </form>
       </li> -->
-    </ul>
-  </nav>
-</div>
-</header>  
-
-<div id="container">
-    <div id="main" class="post" itemscope itemprop="blogPost">
-	<article itemprop="articleBody">
-		<header class="article-info clearfix">
-			<h1 itemprop="name">
-				  <a href="http://EasyChart.github.io/post/E2P/" title="Execl图表导出高清图片的方法" itemprop="url">Execl图表导出高清图片的方法</a>
-			</h1>
-			<p class="article-author">By <a href="#" title="EasyCharts">EasyCharts</a>  </p>
-			<p class="article-time">   <time datetime="2016-07-24 17:26:18 &#43;0800 CST" itemprop="datePublished">2016-07-24</time></p>
+					</ul>
+				</nav>
+			</div>
 		</header>
 
-<div class="article-content" style="color:black">	
+		<div id="container">
+			<div id="main" class="post" itemscope itemprop="blogPost">
+				<article itemprop="articleBody">
+					<header class="article-info clearfix">
+						<h1 itemprop="name">
+				  <a href="http://EasyChart.github.io/post/E2P/" title="Execl图表导出高清图片的方法" itemprop="url">Execl图表导出高清图片的方法</a>
+			</h1>
+						<p class="article-author">By
+							<a href="#" title="EasyCharts">EasyCharts</a>
+						</p>
+						<p class="article-time"> <time datetime="2016-07-24 17:26:18 &#43;0800 CST" itemprop="datePublished">2016-07-24</time></p>
+					</header>
 
-		<p style="text-align:justify">&emsp;&emsp;不少同学使用Excel绘制图表后，以截图的方式生成图片粘贴到文章中，这种图片往往都不怎么清晰，那么，如何导出高清的图表图片呢？以下提供一些思路和方法。
-		</p>
-		
-		
-		<span class="tittle1">一、先导出矢量图，后用AI导出位图</span><br/>
-				<p style="font-size:15px;list-style-type:none;color:rgb(192,0,0);padding-left:4%;text-align:justify"><b>Tips：</b>矢量图和位图的最大区别：矢量图可以缩放到任意大小和以任意分辨率在输出设备上打印出来，都不会影响清晰度；而位图是由一个一个像素点产生，当放大图像时，像素点也放大了，但每个像素点表示的颜色是单一的，所以在位图放大后就会出现马赛克状。位图的文件类型很多，如*.bmp、*.pcx、*.gif、*.jpg、*.tif、photoshop的*.psd等；矢量图形格式也很多，如Adobe illustrator的*.ai、*.eps和svg、Auto CAD的*.dwg和dxf、Corel DRAW的*.cdr等。</p>
-		<span class="tittle1">（1）导出矢量图</span><br/>
-		&emsp;两种Excel图表导出矢量图的方法：<br/>
-		<ul>
-		<li>将图表复制到一个空工作表中，文件→另存为→PDF(*.pdf)。</li>
-		<li>复制Excel图表→打开一个空PPT→开始→粘贴→选择性粘贴—图片（增强型图元文件）或者windows图元文件→选中粘贴好的图片→右击另存为图片→选择保存类型为emf或wmf。</li>
-		</ul>
-		
+					<div class="article-content" style="color:black">
 
-		<span class="tittle1">（2）AI(Adobe illustrator )导出位图</span>
-		<ul style="text-align:justify">
-		<li>将之前导出的矢量图用AI软件打开，按以下顺序操作导出位图：文件→导出→选择“保存类型”（本文最后提供的范例为PNG格式）后点击“导出”→在弹出的对话框中设置分辨率（默认有72ppi、150ppi和300ppi，自定义）等参数，一般选300ppi，可根据个人需要自定义分辨率。</li>
-		<li>如果需要对矢量图进行修改，一般使用直接选择工具（A）选中图表元素即可进行修改，但有时需要先取消编组（Ctrl+Shift+G）或者释放剪切蒙版(Ctrl+AIt+7)再使用直接选择工具或者选择工具。若需要其他AI使用技巧，请自行搜索相关教程。</li>
-		</ul>
-		<p><b>&emsp;PS：</b>PDF文件还可以使用Adobe Acrobat对图表元素进行调整和导出图片，但个人觉得不太方便。</p>
-		</p>
-		
-		<span class="tittle1">二、Excel插件--XL Toolbox</span>
-		<p>&emsp;&emsp;访问官网:<a href="https://www.xltoolbox.net/">https://www.xltoolbox.net/</a>下载插件，不定期更新，这里不提供安装包。<br/>
-		&emsp;&emsp;XL Toolbox有一些不错的功能，在这里只介绍导图功能。<p>
-		<img src="http://EasyChart.github.io/post/E2P/E2Ppic/1.png" >
-		<li style="text-align:center;list-style-type:none">图1</li>
-		<p style="text-align:justify">&emsp;&emsp;图1为该插件的导入导出功能区，其中Export selection和Batch Export均有导出图片的功能，这里以Export selection进行说明。</p>
-		<ul style="text-align:justify">
-		<li>点击“Export selection”右侧的倒三角后，点击“Export with settings”</li>
-		<li>弹出“Single graphic export”对话框，可以看到默认参数（图2） </li>
-		<img src="http://EasyChart.github.io/post/E2P/E2Ppic/2.png" >
-		<li style="text-align:center;list-style-type:none">图2</li>
-		<li>根据需要可以对“Preset”和“Output”进行参数修改：</li>
-		<span class="tittle1">①</span> 修改“Preset”参数需点击“Edit”进入“Edit export preset”对话框（图3），可以在“Details”中对默认的参数“Png，400dpi，RGB，Transparent canvas”直接进行修改，也可以点击“Add”按钮新建，然后在“Details”中修改，一般分辨率设置为300dpi就行了。<br/>&emsp;&emsp;主要设置“Details”中的“名称Name”、“文件类型File type”、“分辨率Resolution”、“色彩空间Color space”、“透明度Transparency”（由上到下）。这里提醒一下：在“File type”中有个选项是EMF，即可以导出EMF矢量图^_^。<br/><span class="tittle1">②</span> “Output”参数可在“Single graphic export”对话框（图2）下半部分修改，可以设置宽度、高度和单位，底下还会提示生成的图片文件大小。
-		<img src="http://EasyChart.github.io/post/E2P/E2Ppic/3.png" >
-		<li style="text-align:center;list-style-type:none">图3</li>
-		<li>参数设置完毕，点击“Export”，命名后保存即可。 </li>
-		</ul>
-		<span class="tittle1">&emsp;&emsp;注意：</span>XL Toolbox插件在Excel非正常关闭情况下可能发生异常，有时需要重新加载！
-		<p class="tittle1" style="text-align:center">PS：以上所有Excel导图操作均基于Excel 2016，Excel 2007-2013版本大同小异，请自行测试。</p>
+						<p style="text-align:justify">&emsp;&emsp;不少同学使用Excel绘制图表后，以截图的方式生成图片粘贴到文章中，这种图片往往都不怎么清晰，那么，如何导出高清的图表图片呢？以下提供一些思路和方法。
+						</p>
 
-	<p style="text-align:justify">	&emsp;&emsp;你可能会说：看完这篇文章我都没看到标题中提到的“高清”两字，不会是标题党吧？其实就是“分辨率”的控制啦~分辨率设置高点就高清啦！当然，分别率也不是越高越好，还得考虑图片大小等问题。</p>
-	<p style="text-align:justify">&emsp;&emsp;你可能会问：方法二这么简单，能控制分辨率等参数，还能导出矢量图，这么牛逼，还写方法一干嘛？方法二有时会出现插件加载问题，甚至可能出现导出图片功能无法使用的情况；方法一是在还没发现方法二的时候自己琢磨出来的，希望能分享思路给大家，其他软件导出图片也可以参考这个思路。</p>
-	<p style="text-align:justify">&emsp;&emsp;最后，无论是用Excel还是其他软件绘制图表，都建议大家保存一份图表的矢量图，这样可以随时根据需要在矢量图上修改图表元素和导出不同分辨率的图片。</p>
+						<span class="tittle1">一、先导出矢量图，后用AI导出位图</span><br/>
+						<p style="font-size:15px;list-style-type:none;color:rgb(192,0,0);padding-left:4%;text-align:justify"><b>Tips：</b>矢量图和位图的最大区别：矢量图可以缩放到任意大小和以任意分辨率在输出设备上打印出来，都不会影响清晰度；而位图是由一个一个像素点产生，当放大图像时，像素点也放大了，但每个像素点表示的颜色是单一的，所以在位图放大后就会出现马赛克状。位图的文件类型很多，如*.bmp、*.pcx、*.gif、*.jpg、*.tif、photoshop的*.psd等；矢量图形格式也很多，如Adobe illustrator的*.ai、*.eps和svg、Auto CAD的*.dwg和dxf、Corel DRAW的*.cdr等。</p>
+						<span class="tittle1">（1）导出矢量图</span><br/> &emsp;两种Excel图表导出矢量图的方法：
+						<br/>
+						<ul>
+							<li>将图表复制到一个空工作表中，文件→另存为→PDF(*.pdf)。</li>
+							<li>复制Excel图表→打开一个空PPT→开始→粘贴→选择性粘贴—图片（增强型图元文件）或者windows图元文件→选中粘贴好的图片→右击另存为图片→选择保存类型为emf或wmf。</li>
+						</ul>
 
-		
-		<p style="text-align:center;">使用本文方法获得的矢量图和高清图片下载：<a href="http://EasyChart.github.io/post/E2P/E2Ppic/Execl图表导出高清图片的方法.zip" ><span style="color:blue;font-weight:bold;">点击下载</span></a><br/>	
-		</p>
-		<p style="text-align:center">
-		​ <span class="tittle1">本文为作者原创，转载请注明出处​！</span>
-		</p>
-</div>
+						<span class="tittle1">（2）AI(Adobe illustrator )导出位图</span>
+						<ul style="text-align:justify">
+							<li>将之前导出的矢量图用AI软件打开，按以下顺序操作导出位图：文件→导出→选择“保存类型”（本文最后提供的范例为PNG格式）后点击“导出”→在弹出的对话框中设置分辨率（默认有72ppi、150ppi和300ppi，自定义）等参数，一般选300ppi，可根据个人需要自定义分辨率。</li>
+							<li>如果需要对矢量图进行修改，一般使用直接选择工具（A）选中图表元素即可进行修改，但有时需要先取消编组（Ctrl+Shift+G）或者释放剪切蒙版(Ctrl+AIt+7)再使用直接选择工具或者选择工具。若需要其他AI使用技巧，请自行搜索相关教程。</li>
+						</ul>
+						<p><b>&emsp;PS：</b>PDF文件还可以使用Adobe Acrobat对图表元素进行调整和导出图片，但个人觉得不太方便。</p>
+						</p>
 
+						<span class="tittle1">二、Excel插件--XL Toolbox</span>
+						<p>&emsp;&emsp;访问官网:
+							<a href="https://www.xltoolbox.net/">https://www.xltoolbox.net/</a>下载插件，不定期更新，这里不提供安装包。<br/> &emsp;&emsp;XL Toolbox有一些不错的功能，在这里只介绍导图功能。
+							<p>
+								<img src="http://EasyChart.github.io/post/E2P/E2Ppic/1.png">
+								<li style="text-align:center;list-style-type:none">图1</li>
+								<p style="text-align:justify">&emsp;&emsp;图1为该插件的导入导出功能区，其中Export selection和Batch Export均有导出图片的功能，这里以Export selection进行说明。</p>
+								<ul style="text-align:justify">
+									<li>点击“Export selection”右侧的倒三角后，点击“Export with settings”</li>
+									<li>弹出“Single graphic export”对话框，可以看到默认参数（图2） </li>
+									<img src="http://EasyChart.github.io/post/E2P/E2Ppic/2.png">
+									<li style="text-align:center;list-style-type:none">图2</li>
+									<li>根据需要可以对“Preset”和“Output”进行参数修改：</li>
+									<span class="tittle1">①</span> 修改“Preset”参数需点击“Edit”进入“Edit export preset”对话框（图3），可以在“Details”中对默认的参数“Png，400dpi，RGB，Transparent canvas”直接进行修改，也可以点击“Add”按钮新建，然后在“Details”中修改，一般分辨率设置为300dpi就行了。<br/>&emsp;&emsp;主要设置“Details”中的“名称Name”、“文件类型File type”、“分辨率Resolution”、“色彩空间Color space”、“透明度Transparency”（由上到下）。这里提醒一下：在“File type”中有个选项是EMF，即可以导出EMF矢量图^_^。<br/><span class="tittle1">②</span> “Output”参数可在“Single graphic export”对话框（图2）下半部分修改，可以设置宽度、高度和单位，底下还会提示生成的图片文件大小。
+									<img src="http://EasyChart.github.io/post/E2P/E2Ppic/3.png">
+									<li style="text-align:center;list-style-type:none">图3</li>
+									<li>参数设置完毕，点击“Export”，命名后保存即可。 </li>
+								</ul>
+								<span class="tittle1">&emsp;&emsp;注意：</span>XL Toolbox插件在Excel非正常关闭情况下可能发生异常，有时需要重新加载！
+								<p class="tittle1" style="text-align:center">PS：以上所有Excel导图操作均基于Excel 2016，Excel 2007-2013版本大同小异，请自行测试。</p>
 
+								<p style="text-align:justify"> &emsp;&emsp;你可能会说：看完这篇文章我都没看到标题中提到的“高清”两字，不会是标题党吧？其实就是“分辨率”的控制啦~分辨率设置高点就高清啦！当然，分别率也不是越高越好，还得考虑图片大小等问题。</p>
+								<p style="text-align:justify">&emsp;&emsp;你可能会问：方法二这么简单，能控制分辨率等参数，还能导出矢量图，这么牛逼，还写方法一干嘛？方法二有时会出现插件加载问题，甚至可能出现导出图片功能无法使用的情况；方法一是在还没发现方法二的时候自己琢磨出来的，希望能分享思路给大家，其他软件导出图片也可以参考这个思路。</p>
+								<p style="text-align:justify">&emsp;&emsp;最后，无论是用Excel还是其他软件绘制图表，都建议大家保存一份图表的矢量图，这样可以随时根据需要在矢量图上修改图表元素和导出不同分辨率的图片。</p>
 
-  <footer class="article-footer clearfix">
-  <div class="article-share" id="share">
-	<div data-url="http://EasyChart.github.io/post/E2P/" data-title="Execl图表导出高清图片的方法" data-tsina="介绍在Excel图表导出矢量图和用AI对矢量图修图导图的思路，以及使用XL Toolbox插件导图的方法" data-pics="http://EasyChart.github.io/post/E2P/E2Ppic/3.png" class="share clearfix" >
-	</div>
-	
-  </div>
-</footer>
+								<p style="text-align:center;">使用本文方法获得的矢量图和高清图片下载：
+									<a href="http://EasyChart.github.io/post/E2P/E2Ppic/Execl图表导出高清图片的方法.zip"><span style="color:blue;font-weight:bold;">点击下载</span></a><br/>
+								</p>
+								<p style="text-align:center">
+									​ <span class="tittle1">本文为作者原创，转载请注明出处​！</span>
+								</p>
+					</div>
 
-</article>
-  
+					<footer class="article-footer clearfix">
+						<div class="article-share" id="share">
+							<div data-url="http://EasyChart.github.io/post/E2P/" data-title="Execl图表导出高清图片的方法" data-tsina="介绍在Excel图表导出矢量图和用AI对矢量图修图导图的思路，以及使用XL Toolbox插件导图的方法" data-pics="http://EasyChart.github.io/post/E2P/E2Ppic/3.png" class="share clearfix">
+							</div>
 
+						</div>
+					</footer>
 
-	<section class="comment">
+				</article>
+
+				<!-- <section class="comment">
 		<div id="disqus_thread"></div>
 	</section>
 	
@@ -157,15 +165,19 @@
 	</script>
 
 	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-	</noscript>
+	</noscript> -->
 
-</div>
+			</div>
 
-<div class="openaside"><a class="navbutton" href="#" title="ShowSideBar"></a></div>
-<div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="HideSideBar"></a></div>
-<aside class="clearfix"> 
-			<!--
+			<div class="openaside">
+				<a class="navbutton" href="#" title="ShowSideBar"></a>
+			</div>
+			<div id="asidepart">
+				<div class="closeaside">
+					<a class="closebutton" href="#" title="HideSideBar"></a>
+				</div>
+				<aside class="clearfix">
+					<!--
 			<div class="archiveslist">   
 				<p class="asidetitle">归档</p>
 				<ul class="archive-list">			  
@@ -174,192 +186,202 @@
 					 </li>
 			</ul>	
 			 </div>
-			 -->   
-			 
-	 <div class="rsspart">
-	  <a rel="nofollow" href="http://weibo.com/easycharts" target="_blank">新浪微博</a>
-	</div>
-	<div class="rsspart">
-	  <a rel="nofollow" href="https://zhuanlan.zhihu.com/EasyCharts" target="_blank">知乎专栏</a>
-	</div>
-    
-</aside>
-</div>
-</div>
+			 -->
 
-<footer>
-<div id="footer" >
-  
-	<div class="line">
-		<span></span>
-		<div style='background:no-repeat url("http://EasyChart.github.io/img/author.png") left top;-webkit-background-size:6.875em 6.875em;-moz-background-size:6.875em 6.875em;background-size:6.875em 6.875em;' class="author" ></div>
-	</div>
-    
-	  <section class="info">
-		<p>EasyCharts <br/></p>
-	  </section>
-  
-<!-- 	  <div class="social-font clearfix">   
+					<div class="rsspart">
+						<a rel="nofollow" href="http://weibo.com/easycharts" target="_blank">新浪微博</a>
+					</div>
+					<div class="rsspart">
+						<a rel="nofollow" href="https://zhuanlan.zhihu.com/EasyCharts" target="_blank">知乎专栏</a>
+					</div>
+
+				</aside>
+			</div>
+		</div>
+
+		<footer>
+			<div id="footer">
+
+				<div class="line">
+					<span></span>
+					<div style='background:no-repeat url("http://EasyChart.github.io/img/author.png") left top;-webkit-background-size:6.875em 6.875em;-moz-background-size:6.875em 6.875em;background-size:6.875em 6.875em;' class="author"></div>
+				</div>
+
+				<section class="info">
+					<p>EasyCharts <br/></p>
+				</section>
+
+				<!-- 	  <div class="social-font clearfix">   
 		   <a href="https://github.com/EasyChart" target="_blank" title="github"></a>
 	  </div>
    -->
-	  <p class="copyright">Powered by <a href="http://gohugo.io" target="_blank" title="hugo">hugo</a> and Theme by <a href="https://github.com/coderzh/hugo-pacman-theme" target="_blank" title="hugo-pacman-theme">hugo-pacman-theme</a> © 2016    
-		<a href="http://easychart.github.io/index.html" target="_blank" title="EasyChart">EasyChart</a>   
-	  </p>
-	  
-</div>
-</footer>
+				<p class="copyright">Powered by
+					<a href="http://gohugo.io" target="_blank" title="hugo">hugo</a> and Theme by
+					<a href="https://github.com/coderzh/hugo-pacman-theme" target="_blank" title="hugo-pacman-theme">hugo-pacman-theme</a> © 2016
+					<a href="http://easychart.github.io/index.html" target="_blank" title="EasyChart">EasyChart</a>
+				</p>
 
-<script src="http://EasyChart.github.io/js/jquery-2.1.0.min.js"></script>
-  
-<script type="text/javascript">
-done = false;
-$(document).ready(function(){
-  $('.navbar').click(function(){
-    $('header nav').toggleClass('shownav');
-  });
-  var myWidth = 0;
-  function getSize(){
-    if( typeof( window.innerWidth ) == 'number' ) {
-      myWidth = window.innerWidth;
-    } else if( document.documentElement && document.documentElement.clientWidth) {
-      myWidth = document.documentElement.clientWidth;
-    };
-  };
-  var m = $('#main'),
-      a = $('#asidepart'),
-      c = $('.closeaside'),
-      o = $('.openaside');
-  $(window).resize(function(){
-    getSize();
-    if (myWidth >= 1024) {
-      $('header nav').removeClass('shownav');
-    }else
-    {
-      m.removeClass('moveMain');
-      a.css('display', 'block').removeClass('fadeOut');
-      o.css('display', 'none');
-    }
-  });
-  c.click(function(){
-    a.addClass('fadeOut').css('display', 'none');
-    o.css('display', 'block').addClass('fadeIn');
-    m.addClass('moveMain');
-  });
-  o.click(function(){
-    o.css('display', 'none').removeClass('beforeFadeIn');
-    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');
-    m.removeClass('moveMain');
-  });
-  $(window).scroll(function(){
-    o.css("top",Math.max(80,260-$(this).scrollTop()));
-  });
-  $('form.search').on('submit', function (event) {
-    if (false === done) {
-      event.preventDefault();
-      var orgVal = $(this).find('#search').val();
-      $(this).find('#search').val('site:http:\/\/EasyChart.github.io\/ ' + orgVal);
-      done = true;
-      $(this).submit();
-    }
-  });
-});
-</script>
+			</div>
+		</footer>
 
-<script type="text/javascript">
-$(document).ready(function(){
-  var ai = $('.article-content>iframe'),
-      ae = $('.article-content>embed'),
-      t  = $('#toc'),
-      h  = $('article h2')
-      ah = $('article h2'),
-      ta = $('#toc.toc-aside'),
-      o  = $('.openaside'),
-      c  = $('.closeaside');
-  if(ai.length>0){
-    ai.wrap('<div class="video-container" />');
-  };
-  if(ae.length>0){
-   ae.wrap('<div class="video-container" />');
-  };
-  if(ah.length==0){
-    t.css('display','none');
-  }else{
-    c.click(function(){
-      ta.css('display', 'block').addClass('fadeIn');
-    });
-    o.click(function(){
-      ta.css('display', 'none');
-    });
-    $(window).scroll(function(){
-      ta.css("top",Math.max(140,320-$(this).scrollTop()));
-    });
-  };
-});
-</script>
+		<script src="http://EasyChart.github.io/js/jquery-2.1.0.min.js"></script>
 
-<script type="text/javascript">
-$(document).ready(function(){
-  var $this = $('.share'),
-      url = $this.attr('data-url'),
-      encodedUrl = encodeURIComponent(url),
-      title = $this.attr('data-title'),
-      tsina = $this.attr('data-tsina');
-	  pics = $this.attr('data-pics');
-  var html = [
-  '<a href="#" class="overlay" id="qrcode"></a>',
-  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
-  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
-  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
-  
-   '<a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+ encodedUrl +'&title='+title+'&pics='+pics+'&summary='+ tsina+'" class="article-share-qzone" target="_blank" title="Qzone"></a>',
-   
-  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
-  '<span title="Share to"></span>'
-  ].join('');
-  $this.append(html);
-  $('.article-share-qrcode').click(function(){
-    var imgSrc = $('#qrcode-pic').attr('data-src');
-    $('#qrcode-pic').attr('src', imgSrc);
-    $('#qrcode-pic').load(function(){
-        $('.qrcode strong').text(' ');
-    });
-  });
-});
-</script>
+		<script type="text/javascript">
+			done = false;
+			$(document).ready(function() {
+				$('.navbar').click(function() {
+					$('header nav').toggleClass('shownav');
+				});
+				var myWidth = 0;
 
-<link rel="stylesheet" href="http://EasyChart.github.io/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="http://EasyChart.github.io/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-  $('.article-content').each(function(i){
-    $(this).find('img').each(function(){
-      if ($(this).parent().hasClass('fancybox')) return;
-      var alt = this.alt;
-      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
-      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
-    });
-    $(this).find('.fancybox').each(function(){
-      $(this).attr('rel', 'article' + i);
-    });
-  });
-  if($.fancybox){
-    $('.fancybox').fancybox();
-  }
-});
-</script>
+				function getSize() {
+					if(typeof(window.innerWidth) == 'number') {
+						myWidth = window.innerWidth;
+					} else if(document.documentElement && document.documentElement.clientWidth) {
+						myWidth = document.documentElement.clientWidth;
+					};
+				};
+				var m = $('#main'),
+					a = $('#asidepart'),
+					c = $('.closeaside'),
+					o = $('.openaside');
+				$(window).resize(function() {
+					getSize();
+					if(myWidth >= 1024) {
+						$('header nav').removeClass('shownav');
+					} else {
+						m.removeClass('moveMain');
+						a.css('display', 'block').removeClass('fadeOut');
+						o.css('display', 'none');
+					}
+				});
+				c.click(function() {
+					a.addClass('fadeOut').css('display', 'none');
+					o.css('display', 'block').addClass('fadeIn');
+					m.addClass('moveMain');
+				});
+				o.click(function() {
+					o.css('display', 'none').removeClass('beforeFadeIn');
+					a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');
+					m.removeClass('moveMain');
+				});
+				$(window).scroll(function() {
+					o.css("top", Math.max(80, 260 - $(this).scrollTop()));
+				});
+				$('form.search').on('submit', function(event) {
+					if(false === done) {
+						event.preventDefault();
+						var orgVal = $(this).find('#search').val();
+						$(this).find('#search').val('site:http:\/\/EasyChart.github.io\/ ' + orgVal);
+						done = true;
+						$(this).submit();
+					}
+				});
+			});
+		</script>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-10147768-2', 'auto');
-  ga('send', 'pageview');
-  $('#messagesbsb').remove();
-</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var ai = $('.article-content>iframe'),
+					ae = $('.article-content>embed'),
+					t = $('#toc'),
+					h = $('article h2')
+				ah = $('article h2'),
+					ta = $('#toc.toc-aside'),
+					o = $('.openaside'),
+					c = $('.closeaside');
+				if(ai.length > 0) {
+					ai.wrap('<div class="video-container" />');
+				};
+				if(ae.length > 0) {
+					ae.wrap('<div class="video-container" />');
+				};
+				if(ah.length == 0) {
+					t.css('display', 'none');
+				} else {
+					c.click(function() {
+						ta.css('display', 'block').addClass('fadeIn');
+					});
+					o.click(function() {
+						ta.css('display', 'none');
+					});
+					$(window).scroll(function() {
+						ta.css("top", Math.max(140, 320 - $(this).scrollTop()));
+					});
+				};
+			});
+		</script>
 
-</body>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var $this = $('.share'),
+					url = $this.attr('data-url'),
+					encodedUrl = encodeURIComponent(url),
+					title = $this.attr('data-title'),
+					tsina = $this.attr('data-tsina');
+				pics = $this.attr('data-pics');
+				var html = [
+					'<a href="#" class="overlay" id="qrcode"></a>',
+					'<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+					'<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+					'<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+					'<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+					'<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+
+					'<a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' + encodedUrl + '&title=' + title + '&pics=' + pics + '&summary=' + tsina + '" class="article-share-qzone" target="_blank" title="Qzone"></a>',
+
+					'<a href="http://service.weibo.com/share/share.php?title=' + title + '&url=' + encodedUrl + '&ralateUid=' + tsina + '&searchPic=true&style=number' + '" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+					'<span title="Share to"></span>'
+				].join('');
+				$this.append(html);
+				$('.article-share-qrcode').click(function() {
+					var imgSrc = $('#qrcode-pic').attr('data-src');
+					$('#qrcode-pic').attr('src', imgSrc);
+					$('#qrcode-pic').load(function() {
+						$('.qrcode strong').text(' ');
+					});
+				});
+			});
+		</script>
+
+		<link rel="stylesheet" href="http://EasyChart.github.io/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+		<script src="http://EasyChart.github.io/fancybox/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.article-content').each(function(i) {
+					$(this).find('img').each(function() {
+						if($(this).parent().hasClass('fancybox')) return;
+						var alt = this.alt;
+						if(alt) $(this).after('<span class="caption">' + alt + '</span>');
+						$(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+					});
+					$(this).find('.fancybox').each(function() {
+						$(this).attr('rel', 'article' + i);
+					});
+				});
+				if($.fancybox) {
+					$('.fancybox').fancybox();
+				}
+			});
+		</script>
+
+		<script>
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function() {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o),
+					m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+			ga('create', 'UA-10147768-2', 'auto');
+			ga('send', 'pageview');
+			$('#messagesbsb').remove();
+		</script>
+
+	</body>
+
 </html>
